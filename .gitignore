@@ -1,0 +1,27 @@
+# Environment files & secrets
+.env
+.env.*
+!.env.example
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Scratch & test output
+scratch/
+.pytest_cache/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Assessment materials (not for public distribution)
+PROBLEM_STATEMENT.docx
